@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="#20201e"/><g fill="#eeeae2"><path id="q" d="M15 47V31Q15 15 31 15H47V35H35V47Z"/><use href="#q" transform="rotate(90 50 50)"/><use href="#q" transform="rotate(180 50 50)"/><use href="#q" transform="rotate(270 50 50)"/></g></svg>

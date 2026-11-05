@@ -1,184 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Gitansh Kothari - Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-
-</head>
-<body>
-  <header>
-    <h1>Gitansh Kothari</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <div class="menu-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </header>
-
-  <section id="hero">
-    <div class="hero-content">
-      <h2>Computer Engineering Student</h2>
-      <p>Highly motivated and results-driven student with a keen interest in Machine Learning and Software Engineering.</p>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="about-content">
-      <h2>About Me</h2>
-      <p>Highly motivated and results-driven computer engineering student with a keen interest in advancing the frontiers of Machine Learning and Software Engineering. Possessing 2+ years of hands-on experience in C++ and Python programming, I am deeply knowledgeable in Algorithms and Data Structures, making me adept at crafting efficient and scalable solutions. With a steadfast commitment to learning and collaboration, I am eager to contribute my skills to a dynamic team, driving innovation and creating impactful solutions at the intersection of Machine Learning and Software Engineering.</p>
-    </div>
-  </section>
-
-  <section id="education">
-    <div class="education-content">
-      <h2>Education</h2>
-      <p>
-        <strong>Bachelor of Applied Science: Computer Engineering</strong><br>
-        Expected in Apr 2025<br>
-        University of Toronto, Toronto, Canada<br>
-        <em>Dean’s List [for all semesters]</em><br>
-        <em>Cumulative GPA: 3.81/4.0</em><br>
-        <em>Minors: Artificial Intelligence and Engineering Business</em><br>
-        <em>Relevant Courses: Algorithms and Data Structures, Introduction to Deep Learning, Software Communication and Design</em>
-      </p>
-    </div>
-  </section>
-
-  <section id="skills">
-    <div class="skills-content">
-      <h2>Skills</h2>
-      <ul>
-        <li>Programming: Python, C, C++</li>
-        <li>Tools: Linux, Git, Valgrind</li>
-        <li>Libraries/Frameworks: NumPy, Pandas, OpenAI Gym, Stable Baselines, Matplotlib, TensorFlow, C++ STL</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-
-
-      <input type="radio" name="slider" class="d-none" id="s1" checked>
-      <input type="radio" name="slider" class="d-none" id="s2">
-      <input type="radio" name="slider" class="d-none" id="s3">
-  
-      <div class="cards">
-        <label for="s1" id="slide1">
-          <div class="card">
-            <div class="image">
-              <img src="project1.jpg" alt="Project 1">
-              <div class="dots">
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
-            <div class="infos">
-              <span class="name">Reinforcement Learning for ViZDoom</span>
-              <span class="lorem">Developed and implemented various reinforcement learning algorithms (PPO, DQN, A2C, etc.) and evaluated their performance on distinct VizDoom game scenarios. Automated reward shaping process to optimize the weights of distinct game variables involved. Built custom neural network architectures to train an agent to recognize in-game enemies.</span>
-                lorem. Nulla eu
-                sodales</span>
-            </div>
-            <a href="/contact" class="btn-contact">details</a>
-            <div class="socials">
-              <i class="fa-solid fa-cart-shopping"></i>
-              <i class="fa-regular fa-heart"></i>
-              <i class="fa-regular fa-bookmark"></i>
-              <i class="fa-solid fa-share-nodes"></i>
-            </div>
-          </div>
-        </label>
-  
-        <label for="s2" id="slide2">
-          <div class="card">
-            <div class="image">
-              <img src="project2.jpg" alt="Project 1">
-              <div class="dots">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-                <div class="dot3"></div>
-              </div>
-            </div>
-            <div class="infos">
-              <span class="name">UniMaps</span>
-              <span class="lorem">Developed a feature-rich GIS application with location-finding, bookmarking, autocompletion, route-planning, and more using C++ and Glade. Implemented Dijkstra path-finding algorithm and utilized advanced data structures like Trie and HashMap. Programmed an efficient solution to the Single Vehicle Pickup and Delivery problem using greedy and 2-opt algorithms.</span>
-                lorem. Nulla eu
-                sodales karma stellus</span>
-            </div>
-            <a href="/contact" class="btn-contact">details</a>
-            <div class="socials">
-              <i class="fa-solid fa-cart-shopping"></i>
-              <i class="fa-regular fa-heart"></i>
-              <i class="fa-regular fa-bookmark"></i>
-              <i class="fa-solid fa-share-nodes"></i>
-            </div>
-          </div>
-        </label>
-  
-        <label for="s3" id="slide3">
-          <div class="card">
-            <div class="image">
-              <img src="project3.jpg" alt="Project 1">
-              <div class="dots">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-                <div class="dot3"></div>
-              </div>
-            </div>
-            <div class="infos">
-              <span class="name">Object Detection</span>
-              <span class="lorem">Implemented vehicle detection, traffic sign detection, and lane segmentation models for images/videos using Python and OpenCV. Performed data preprocessing, training, and testing to achieve accurate results.</span>
-                lorem. Nulla karma stellus</span>
-            </div>
-            <a href="/contact" class="btn-contact">details</a>
-            <div class="socials">
-              <i class="fa-solid fa-cart-shopping"></i>
-              <i class="fa-regular fa-heart"></i>
-              <i class="fa-regular fa-bookmark"></i>
-              <i class="fa-solid fa-share-nodes"></i>
-            </div>
-          </div>
-        </label>
-      </div>
-    </div>
-
-  </section>
-
-  <section id="mlVisualization">
-    <h2>Machine Learning Visualization</h2>
-    <!-- <p>Highly motivated and results-driven computer engineering student with a keen interest in advancing the frontiers of Machine Learning and Software Engineering. Possessing 2+ years of hands-on experience in C++ and Python programming, I am deeply knowledgeable in Algorithms and Data Structures, making me adept at crafting efficient and scalable solutions. With a steadfast commitment to learning and collaboration, I am eager to contribute my skills to a dynamic team, driving innovation and creating impactful solutions at the intersection of Machine Learning and Software Engineering.</p> -->
-
-    <div id="mlCanvas"></div>
-  </section>
-
-  <section id="contact">
-    <div class="contact-content">
-      <h2>Contact Me</h2>
-      <p>Email: gitansh.kothari@mail.utoronto.ca</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/gitansh-kothari/" target="_blank">https://www.linkedin.com/in/gitansh-kothari/</a></p>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2023 Gitansh Kothari. All rights reserved.</p>
-  </footer>
-
-  <div class = scrollToTopBtn-background>
-    <button id="scrollToTopBtn" class="type1">
-      Scroll to Top
-    </button>
-  </div>
-
-  <!-- JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#20201e" />
+    <meta
+      name="description"
+      content="Gitansh Kothari — software, computer vision and robotics. Explore selected work, engineering experience and architecture implementations."
+    />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="canonical" href="https://gitanshkothari.vercel.app/" />
+    <meta property="og:title" content="Gitansh Kothari — Selected work" />
+    <meta
+      property="og:image"
+      content="https://gitanshkothari.vercel.app/social.svg"
+    />
+    <title>Gitansh Kothari</title>
+  </head>
+  <body>
+    <div id="root"><!--app--></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
